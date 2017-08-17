@@ -1,0 +1,474 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2017, 7:17:13 PM
+    Author     : sreekanth kasani  ')
+*/
+
+footer {
+    background: #0b0c0b;
+    bottom: 0;
+    left: 0;
+    padding: 20px 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
+
+.header-block{
+    border-radius: 15px;
+    height: 120px;
+    width: 1174px;
+    background-color: #006699;
+    margin: 10px auto;
+    margin-top: 0px;
+    padding: 10px 25px;
+}
+
+.header-block1{
+    border-radius: 15px;
+    height: 820px;
+    width: 1150px;
+    background-color:rgba(0, 0, 0, 0);;
+    margin: 10px auto;
+    padding: 10px 25px;
+}
+.left-block{
+    float: left;
+    width: 500px;
+}
+
+.right-block{
+    float: right;
+    width: 210px;
+    margin-top: 25px;
+}
+
+.logotext
+{
+    margin-top: 20px;  
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.tagline
+{
+    font-size: 15px;
+    color: #FFFFFF;
+    display: block;
+    margin-left: 330px;
+    margin-top: 5px;
+}
+
+.para{
+    width: 104%;
+    /*  border: 2px solid;
+    border-radius: 2px; */
+    margin-top: 0px;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    margin-left: -23px;
+    margin-top: -135px;
+
+
+}
+
+/* HOme page Menu bar started............... */  
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+}
+#cssmenu {
+    width: 1195px; 
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    clear:both;
+    margin-top:0px;
+    margin-left: -22px;
+}
+#cssmenu ul {
+    zoom: 1;
+    background: #36b0b6;
+    background: -moz-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #36b0b6), color-stop(100%, #2a8a8f));
+    background: -webkit-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+    background: -o-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+    background: -ms-linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+    background: linear-gradient(top, #36b0b6 0%, #2a8a8f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    width: 1192px;
+    padding-left: 22px;
+}
+#cssmenu ul:before {
+    content: '';
+    display: block;
+}
+#cssmenu ul:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#cssmenu li {
+    float: left;
+    margin: 0 5px 0 0;
+    border: 1px solid transparent;
+    list-style: none;
+}
+#cssmenu li a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 8px 15px 9px 15px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid transparent;
+    font-size: 16px;
+}
+#cssmenu li.active {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #36b0b6;
+}
+#cssmenu li.active a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    background: #1e6468;
+    border: 1px solid #133e40;
+    -moz-box-shadow: inset 0 5px 10px #133e40;
+    -webkit-box-shadow: inset 0 5px 10px #133e40;
+    box-shadow: inset 0 5px 10px #133e40;
+}
+#cssmenu li:hover {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #36b0b6;
+}
+#cssmenu li:hover a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    display: block;
+    background: #1e6468;
+    border: 1px solid #133e40;
+    -moz-box-shadow: inset 0 5px 10px #133e40;
+    -webkit-box-shadow: inset 0 5px 10px #133e40;
+    box-shadow: inset 0 5px 10px #133e40;
+}
+/* HOme page Menu bar ended...............
+
+//footer............. */
+.footer-head{
+
+    width: 100%;
+    border: 2px solid ;
+    background-color:  #3a57af;
+    /* margin-top: 100px; */
+
+}
+
+/*  best valued tour in india */
+.besttour{
+    width: 99%;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+
+
+}
+
+/*  book your own .............. */
+.reg{
+    width: 30%;
+    height: 500px;
+    border: 2px solid;
+    border-radius: 2px;
+    margin-top: 0px;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    float: left;
+
+}
+
+.form{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 400px;
+
+    border: 2px solid;
+    border-radius: 2px;
+
+}
+
+.tours-block{
+    background: #5882FA;
+    padding: 48px 50px 27px;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+h2.heading{
+    padding-left: 15px;
+    padding-top: 0px;
+    color: #FFF;
+    font-family: verdana;
+    font-size: 30px;
+}
+h3.heading{
+    padding-left: 15px;
+    padding-top: 0px;
+    color: #FFF;
+    font-family: verdana;
+    font-size: 20px;
+}
+h4.heading{
+    padding-left: 16px;
+    padding-top: 0px;
+    color: #FFF;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+.description{
+    padding-left: 15px;
+    font-family: verdana;
+    font-size: 16px;
+    color:  #ffffff;
+}
+
+.contactno{
+    padding-left: 15px;
+    font-family: verdana;
+    font-size: 16px;
+    color:  #ffffff;
+}
+
+
+
+
+.hotel-block{
+    background:#5882FA;
+    background-color: #5882FA;
+    padding: 2px 0px 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+.about-block{
+    width: 97%;
+    margin: auto 0px;
+    background:#5882FA;
+    background-color: #5882FA;
+    /* padding: 2px 0px 10px;
+    box-shadow: 10px 10px 5px #888888; */
+    margin-left: 1px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 22px;
+    padding-bottom: 15px;
+    margin-top: -93px;
+}
+
+
+
+.contact-us{
+    width: 100%;
+    padding-right: 50px;
+    border: 2px solid;
+    border-radius: 2px;
+    margin-left: -22px;
+    clear: both;
+    margin-top: -40px;
+    float: left;
+    background-color: #006699;
+    padding-bottom: 30px;
+
+}
+.contact-us-right{
+    width: 42%;
+    height: 200px;
+
+    /* border: 2px solid;
+     border-radius: 2px; */
+    margin-left: 200px;
+    margin-top: -310px;
+    background-color: #006699;
+
+    clear: both;
+
+    float: right;
+
+
+}
+.cbtn{
+    margin-left: 170px; 
+    width: 250px;
+    height: 70px;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    /*-webkit-border-radius: 28;
+    -moz-border-radius: 28; */
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 31px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+
+}
+.hotel-book-back{
+    width: 100%;
+    /*  height: 1200px;
+
+    //   border: 2px solid;
+    // border-radius: 2px;
+    //margin-left: 200px;
+    //margin-top: -310px;
+    //background-color: #5882FA; */
+    padding-bottom: 50px;
+
+
+}
+
+.hotel-book-form{
+    width: 104%;
+    border: 2px solid;
+    border-radius: 2px;
+    margin-left: -22px;
+    margin-top: 270px;
+    background-color: #08088A;
+    box-shadow: 15px 0px 20px #888;
+    padding-bottom: 15px;
+}
+
+
+
+
+.Labeltext{
+
+    color:  #ffffff;
+    margin-left: 80px;
+    font-size: 22px;
+}
+.hotel-book-date{
+    width: 100%;
+    color:  #ffffff;
+    /*  margin-left: 450px;
+    //  font-size: 22px;
+    //  margin-top: -195px; */
+    border: 2px solid;
+    border-radius: 2px;
+
+}
+.hotel-book-rs{
+    width: 90%;
+    color:  #ffffff;
+    /*  margin-left: 450px;
+    //  font-size: 22px;
+    //  margin-top: -195px;
+    //  border: 2px solid;
+    // border-radius: 2px; */
+    clear: both;
+
+}
+.dep{
+    width: 40%;
+    color:  #ffffff;
+    margin-right: 100px;
+    font-size: 22px;
+    margin-top: 0px;
+    border: 2px solid;
+    border-radius: 2px;
+    float: right;
+    clear: both;
+}
+.ariv{
+    width: 40%;
+    color:  #ffffff;
+    margin-left: 0px;
+    font-size: 22px;
+    margin-top: 0px;
+    border: 2px solid;
+    border-radius: 2px;
+    float: left;
+}
+
+.linkbutton{
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: verdana;
+    color: rgb(88, 130, 250);        
+}
+
+.view-detail-back
+{
+    width: 104%;
+    background-color: #5882FA;
+    margin-left: -23px;
+    margin-top: 269px;
+    clear: both;
+    padding-bottom: 100px;
+
+
+}
+
+/*  login sucess.. */
+
+.login-sucess-back{
+    width: 104%;
+    background-color: #5882FA;
+    margin-left: -23px;
+    margin-top: 269px;
+    clear: both;
+    padding-bottom: 10px;
+
+}
+.labeltext-bookown{
+    color:  #ffffff;
+    font-size: 18px;
+}
+
+.labeltext-bookown1{
+    color:  #ffffff;
+    font-size: 40px;
+}
+

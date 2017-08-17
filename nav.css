@@ -1,0 +1,58 @@
+body {
+    /*font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+      color: #404040; */
+    height:964px;
+    background: #0ca3d2;
+    background-image:url(loginbg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.btngroup {
+    float:right;
+    font-size: 0;
+    line-height: 1;
+    white-space: nowrap;
+    display: inline;
+}
+.btngroup--btn {
+    font-size: 1rem;
+    letter-spacing: .1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid #7f8c8d;
+    border-left-width: 0;
+    display: inline-block;
+    padding: .5em 1.25em;
+    outline: 0;
+}
+.btngroup--btn:first-child {
+    border-left-width: 2px;
+    border-radius: 2em 0 0 2em;
+}
+.btngroup--btn:last-child {
+    border-radius: 0 2em 2em 0;
+}
+.btngroup--btn:link {
+    color: #bdc3c7;
+}
+.btngroup--btn:visted {
+    color: #bdc3c7;
+}
+.btngroup--btn:hover {
+    background: #34495e;
+    color: #fff;
+}
+.btngroup--btn:active {
+    background: #1881ba;
+    color: #34495e;
+}
+
+

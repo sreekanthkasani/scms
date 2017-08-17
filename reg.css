@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2017, 9:30:12 PM
+    Author     : sreekanth kasani  ')
+*/
+
+body {
+ /*font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+   color: #404040; */
+  background: #0ca3d2;
+  background-image:url(loginbg.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+.content{
+    width:960px;
+    margin:20px auto
+}
+.main{
+    float:left;
+    width:650px;
+    margin-top:80px
+}
+#progressbar{
+    height: 241px;
+    margin-top: 305px;
+    float: right;
+    padding: 0;
+    font-size: 31px;
+    display: grid;
+}
+#active1{
+    color:red
+}
+fieldset{
+    display:none;
+    width:350px;
+    padding:20px;
+    margin-top:50px;
+    margin-left:85px;
+    border-radius:5px;
+    box-shadow:3px 3px 25px 1px gray
+}
+#first{
+    background: ghostwhite;
+    display:block;
+    width:350px;
+    padding:20px;
+    margin-top:50px;
+    border-radius:5px;
+    margin-left:85px;
+    box-shadow:3px 3px 25px 1px gray
+}
+input[type=text],input[type=password],select{
+    width:100%;
+    margin:10px 0;
+    height:40px;
+    padding:5px;
+    border:3px solid #ecb0dc;
+    border-radius:4px
+}
+textarea{
+    width:100%;
+    margin:10px 0;
+    height:70px;
+    padding:5px;
+    border:3px solid #ecb0dc;
+    border-radius:4px
+}
+input[type=submit],input[type=button]{
+    width:120px;
+    margin:15px 25px;
+    padding:5px;
+    height:40px;
+    background-color:#a0522d;
+    border:none;
+    border-radius:4px;
+    color:#fff;
+    font-family:'Droid Serif',serif
+}
+h2,p{
+    text-align:center;
+    font-family:'Droid Serif',serif
+}
+li{
+    margin-right:52px;
+    display:inline;
+    color:#015dff;
+    font-family:'Droid Serif',serif
+}

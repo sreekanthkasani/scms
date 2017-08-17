@@ -1,0 +1,382 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2017, 7:18:28 PM
+    Author     : sreekanth kasani  ')
+*/
+
+
+
+body {
+    /*font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+      color: #404040; */
+    height:964px;
+    background: #0ca3d2;
+    background-image:url(loginbg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.container {
+
+    width: 700px;
+    /* height: 800px;
+      background-color: #2e458b;*/
+    margin-top:70px;
+    margin-left: -115px;
+
+}
+
+.login {
+
+    margin: 90px auto 240px 490px;
+    padding: 20px 20px 20px;
+    width: 320px;
+    background: white;
+    border-radius: 3px;
+
+
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: -8px; right: -8px; bottom: -8px; left: -8px;
+        z-index: -1;
+        border-radius: 4px;
+    }
+
+    h1 {
+        margin: -20px -20px 21px;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #555;
+        text-align: center;
+        text-shadow: 0 1px white;
+        background: #f3f3f3;
+        border-bottom: 1px solid #cfcfcf;
+        border-radius: 3px 3px 0 0;
+
+    }
+
+    p { margin: 20px 0 0; }
+    p:first-child { margin-top: 0; }
+
+    input[type=text], input[type=password] { width: 278px; }
+
+    p.remember_me {
+        float: left;
+        line-height: 31px;
+
+        label {
+            font-size: 12px;
+            color: #777;
+            cursor: pointer;
+        }
+
+        input {
+            position: relative;
+            bottom: 1px;
+            margin-right: 4px;
+            vertical-align: middle;
+        }
+    }
+
+    p.submit { text-align: right; }
+}
+
+.login-help {
+    margin: 20px 0;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px #2a85a1;
+
+    a {
+        color: #cce7fa;
+        text-decoration: none;
+
+        &:hover { text-decoration: underline; }
+    }
+}
+
+:-moz-placeholder {
+    color: #c9c9c9 !important;
+    font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 13px;
+}
+
+input {
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+input[type=text], input[type=password], select {
+    margin: 5px;
+    padding: 0 10px;
+    width: 200px;
+    height: 34px;
+    color: #404040;
+    background: white;
+    border: 1px solid;
+    border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+    border-radius: 2px;
+    -moz-outline-radius: 3px;  /* Can we get this on WebKit please?*/
+
+
+    &:focus {
+        border-color: #7dc9e2;
+        outline-color: #dceefc;
+        outline-offset: 0;  /*  WebKit sets this to -1 by default */
+    }
+}
+
+input[type=submit] {
+    padding: 0 18px;
+    height: 29px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #527881;
+    text-shadow: 0 1px #e3f1f1;
+    background: #cde5ef;
+    border: 1px solid;
+    border-color: #b4ccce #b3c0c8 #9eb9c2;
+    border-radius: 16px;
+    outline: 0;
+
+
+    &:active {
+        background: #cde5ef;
+        border-color: #9eb9c2 #b3c0c8 #b4ccce;
+
+    }
+}
+
+#search{
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#searchs:focus {
+    width: 100%;
+}
+
+.lt-ie9 {
+    input[type=text], input[type=password] { line-height: 34px; }
+}
+
+
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+pre, form, fieldset, input, textarea, p, blockquote, th, td { 
+    padding:0;
+    margin:0;}
+
+fieldset, img {border:0}
+
+ol, ul, li {list-style:none}
+
+:focus {outline:none}
+
+body,
+input,
+textarea,
+select {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+p {
+    font-size: 12px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 18px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #4c4c4c;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+html{
+    background-color: #ffffff;
+}
+
+.testbox {
+    margin:-3px auto;
+    width: 343px; 
+    height: 548px; 
+    -webkit-border-radius: 8px/7px; 
+    -moz-border-radius: 8px/7px; 
+    border-radius: 8px/7px; 
+    background-color: #ebebeb; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    border: solid 1px #cbc9c9;
+    margin-bottom:-150px;
+    margin-bottom: -1px;
+}
+
+input[type=radio] {
+    visibility: hidden;
+}
+
+form{
+    margin: 0 30px;
+}
+
+label.radio {
+    cursor: pointer;
+    text-indent: 35px;
+    overflow: visible;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+label.radio:before {
+    background: #3a57af;
+    content:'';
+    position: absolute;
+    top:2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+label.radio:after {
+    opacity: 0;
+    content: '';
+    position: absolute;
+    width: 0.5em;
+    height: 0.25em;
+    background: transparent;
+    top: 7.5px;
+    left: 4.5px;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-right: none;
+
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+input[type=radio]:checked + label:after {
+    opacity: 1;
+}
+
+hr{
+    color: #a9a9a9;
+    opacity: 0.3;
+}
+
+input[type=text],input[type=password]{
+    width: 200px; 
+    height: 39px; 
+    -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+    border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+    background-color: #fff; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    border: solid 1px #cbc9c9;
+    margin-left: -5px;
+    margin-top: 13px; 
+    padding-left: 10px;
+}
+
+input[type=password]{
+    margin-bottom: 25px;
+}
+
+#icon {
+    display: inline-block;
+    width: 30px;
+    background-color: #3a57af;
+    padding: 8px 0px 8px 15px;
+    margin-left: 15px;
+    -webkit-border-radius: 4px 0px 0px 4px; 
+    -moz-border-radius: 4px 0px 0px 4px; 
+    border-radius: 4px 0px 0px 4px;
+    color: white;
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+    border: solid 0px #cbc9c9;
+}
+
+.gender {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.accounttype{
+    margin-left: 8px;
+    margin-top: 0px;
+}
+
+a.button {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 6px 25px 0px 20px;
+    margin: 10px 8px 20px 0px;
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    width: 50px; height: 27px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #3a57af; 
+    -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
+    -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
+    box-shadow: 0 3px rgba(58,87,175,.75);
+    transition: all 0.1s linear 0s; 
+    top: 0px;
+    position: relative;
+}
+
+a.button:hover {
+    top: 3px;
+    background-color:#2e458b;
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    box-shadow: none;
+
+}
+.header-block-reg{
+    border-radius: 25px;
+    height: 120px;
+    width: 1150px;
+    background-color: #006699;
+    margin: 10px auto;
+    padding: 10px 25px;
+}
+
+.header-block-reg1{
+    border-radius: 25px;
+    width: 1150px;
+    background-color: #006699;
+    margin: 0px auto;
+    padding: 10px 25px;
+}
