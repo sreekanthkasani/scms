@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+# Student Counselling Management System
+###  a mini project for the college
 
-You can use the [editor on GitHub](https://github.com/sreekanthkasani/sreekanthkasani.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sreekanthkasani/sreekanthkasani.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This project is about recording and maintaining the details of the student in a easy and efficient way.At present most of the colleges in our locality are using the hand written documents/records for maintaining the details of each student, this becomes compllicated for the management to handle those records in certain situations (i.e when it is required to go through the details of particular student with in the institution).
+      As the technology is enhancing, maintainance of the student had become easier by storing the details of student in database management system(DBMS), this gives the flexbility of recording,maintaining and manipulating the information of the students.It also reduces the mistakes made by the employees and the  
